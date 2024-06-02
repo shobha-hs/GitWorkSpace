@@ -1,0 +1,32 @@
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      
+    String strName = "we are coforge";
+    String sum = "";
+    
+    String[] arr = strName.split(" ");
+   
+   for (int i=0 ; i<arr.length; i++){
+     
+         
+         
+         Character ch = arr[i].charAt(0);
+         System.out.println("--" +ch);
+         
+         Character newCh = Character.toUpperCase(ch));
+         
+         arr[i].replace(arr[i].charAt(0) ,newCh);
+         
+         Sum = Sum + arr[i];
+         
+     
+   }
+      
+  }
+}
+
+
+ 
