@@ -23,6 +23,8 @@ public class Main {
          Sum = Sum + arr[i];
          
      // Adding the Second Change
+    // I am changing here only
+
    }
       
   }
